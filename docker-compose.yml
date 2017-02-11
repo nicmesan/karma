@@ -1,0 +1,22 @@
+karma:
+  build: .
+  ports:
+    - "3000:3000"
+  volumes:
+    - ./:/app/karma
+  links:
+    - db_karma:db
+  tty: true
+
+
+db_karma:
+  image: mysql:5.7
+  environment:
+    MYSQL_ROOT_PASSWORD: karma
+    MYSQL_DATABASE: karma
+    MYSQL_USER: karma
+    MYSQL_PASSWORD: karma
+  ports:
+    - "3306:3306"
+  volumes:
+    - ./:/app/  
