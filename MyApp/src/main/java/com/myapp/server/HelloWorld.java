@@ -1,4 +1,4 @@
-package com.myapp.MyApp;
+package com.myapp.server;
 
 import static spark.Spark.*;
 
