@@ -47,9 +47,15 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.12</version>
       <scope>test</scope>
-    </dependency>
+      <exclusions>
+			<exclusion>
+				<groupId>org.hamcrest</groupId>
+				<artifactId>hamcrest-core</artifactId>
+			</exclusion>
+		</exclusions>
+    </dependency> 
     <dependency>
     <groupId>com.sparkjava</groupId>
     <artifactId>spark-core</artifactId>
@@ -114,6 +120,10 @@
   <artifactId>slf4j-simple</artifactId>
   <version>1.7.13</version>
  </dependency>
-
+<dependency>
+	<groupId>log4j</groupId>
+	<artifactId>log4j</artifactId>
+	<version>1.2.17</version>
+</dependency>
   </dependencies>
 </project>
