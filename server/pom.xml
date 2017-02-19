@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.myapp</groupId>
-  <artifactId>MyApp</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <groupId>com.server</groupId>
+  <artifactId>server</artifactId>
+  <version>0.0.1</version>
   <packaging>jar</packaging>
   
-  <name>MyApp</name>
+  <name>server</name>
   <url>http://maven.apache.org</url>
 <build>
     <plugins>
@@ -27,11 +27,11 @@
           <target>1.8</target>
           <archive>
           <manifest>
-            <mainClass>com.myapp.server.HelloWorld</mainClass>
+            <mainClass>com.myapp.server.Server</mainClass>
           </manifest>
           </archive>
           <descriptorRefs>
-            <descriptorRef>jar-with-dependencies</descriptorRef>
+            <descriptorRef></descriptorRef>
           </descriptorRefs>
         </configuration>
       </plugin>
@@ -47,18 +47,24 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.12</version>
       <scope>test</scope>
-    </dependency>
+      <exclusions>
+			<exclusion>
+				<groupId>org.hamcrest</groupId>
+				<artifactId>hamcrest-core</artifactId>
+			</exclusion>
+		</exclusions>
+    </dependency> 
     <dependency>
     <groupId>com.sparkjava</groupId>
     <artifactId>spark-core</artifactId>
     <version>2.5.5</version>
 </dependency>
 <dependency>
-      <groupId>com.google.code.gson</groupId>
-      <artifactId>gson</artifactId>
-      <version>2.6.2</version>
+    	<groupId>com.google.code.gson</groupId>
+    	<artifactId>gson</artifactId>
+    	<version>2.6.2</version>
 </dependency>
 <dependency>
     <groupId>com.restfb</groupId>
@@ -84,36 +90,40 @@
     
 
 
-  <!-- Hibernate library dependecy start -->
-  <dependency>
-    <groupId>dom4j</groupId>
-    <artifactId>dom4j</artifactId>
-    <version>1.6.1</version>
-  </dependency>
+	<!-- Hibernate library dependecy start -->
+	<dependency>
+		<groupId>dom4j</groupId>
+		<artifactId>dom4j</artifactId>
+		<version>1.6.1</version>
+	</dependency>
 
-  <dependency>
-    <groupId>commons-logging</groupId>
-    <artifactId>commons-logging</artifactId>
-    <version>1.1.1</version>
-  </dependency>
+	<dependency>
+		<groupId>commons-logging</groupId>
+		<artifactId>commons-logging</artifactId>
+		<version>1.1.1</version>
+	</dependency>
 
-  <dependency>
-    <groupId>commons-collections</groupId>
-    <artifactId>commons-collections</artifactId>
-    <version>3.2.1</version>
-  </dependency>
+	<dependency>
+		<groupId>commons-collections</groupId>
+		<artifactId>commons-collections</artifactId>
+		<version>3.2.1</version>
+	</dependency>
 
-  <dependency>
-    <groupId>cglib</groupId>
-    <artifactId>cglib</artifactId>
-    <version>2.2</version>
-  </dependency>
-  <!-- Hibernate library dependecy end -->
+	<dependency>
+		<groupId>cglib</groupId>
+		<artifactId>cglib</artifactId>
+		<version>2.2</version>
+	</dependency>
+	<!-- Hibernate library dependecy end -->
  <dependency>
   <groupId>org.slf4j</groupId>
   <artifactId>slf4j-simple</artifactId>
   <version>1.7.13</version>
  </dependency>
-
+<dependency>
+	<groupId>log4j</groupId>
+	<artifactId>log4j</artifactId>
+	<version>1.2.17</version>
+</dependency>
   </dependencies>
 </project>
