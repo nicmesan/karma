@@ -2934,3 +2934,89 @@ com.myapp.exceptions.FbDataRequestException: No existe ese codigo para hacer una
 2017-02-19 11:42:34 INFO  ServerDAO:122 - Ingresa metodo mapDataToInsert(), para mapear los datos obtenidos de la consulta con Facebook
 2017-02-19 11:42:34 INFO  ServerDAO:194 - Ingresa metodo facebookRequest(), para hacer la consulta con Facebook
 2017-02-19 11:42:35 INFO  ServerDAO:122 - Ingresa metodo mapDataToInsert(), para mapear los datos obtenidos de la consulta con Facebook
+2017-02-19 11:58:19 INFO  Version:45 - HHH000412: Hibernate Core {5.2.6.Final}
+2017-02-19 11:58:19 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-02-19 11:58:19 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-02-19 11:58:20 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-02-19 11:58:20 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/karma]
+2017-02-19 11:58:20 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-02-19 11:58:20 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2017-02-19 11:58:20 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-02-19 11:58:20 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-02-19 11:58:21 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@31530d17] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-02-19 11:58:21 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7ab2ca2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-02-19 11:58:21 INFO  SchemaCreatorImpl:488 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@78f1e7d9'
+2017-02-19 11:58:21 INFO  ServerService:18 - Ingresa metodo getDataDB(), para acceder a la DB y obtener los datos
+2017-02-19 11:58:21 INFO  ServerDAO:37 - Ingresa metodo getDataDB(), para acceder a la DB y obtener los datos
+2017-02-19 11:58:21 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-02-19 11:58:21 INFO  ServerService:28 - Ingresa metodo insertFbData(), para grabar los datos en la DB
+2017-02-19 11:58:21 INFO  ServerDAO:71 - Ingresa metodo insertFbData(), para grabar los datos en la DB
+2017-02-19 11:58:21 INFO  ServerDAO:192 - Ingresa metodo facebookRequest(), para hacer la consulta con Facebook
+2017-02-19 11:58:21 INFO  ServerDAO:122 - Ingresa metodo mapDataToInsert(), para mapear los datos obtenidos de la consulta con Facebook
+2017-02-19 11:58:21 INFO  ServerDAO:192 - Ingresa metodo facebookRequest(), para hacer la consulta con Facebook
+2017-02-19 11:58:22 INFO  ServerDAO:122 - Ingresa metodo mapDataToInsert(), para mapear los datos obtenidos de la consulta con Facebook
+2017-02-19 11:58:22 INFO  ServerService:18 - Ingresa metodo getDataDB(), para acceder a la DB y obtener los datos
+2017-02-19 11:58:22 INFO  ServerDAO:37 - Ingresa metodo getDataDB(), para acceder a la DB y obtener los datos
+2017-02-19 12:03:26 INFO  Version:45 - HHH000412: Hibernate Core {5.2.6.Final}
+2017-02-19 12:03:26 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-02-19 12:03:27 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-02-19 12:03:27 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-02-19 12:03:27 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/karma]
+2017-02-19 12:03:27 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-02-19 12:03:27 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2017-02-19 12:03:27 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-02-19 12:03:28 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-02-19 12:03:28 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2cc93432] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-02-19 12:03:28 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2484b49e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-02-19 12:03:28 INFO  SchemaCreatorImpl:488 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@128e9254'
+2017-02-19 12:03:28 INFO  ServerService:18 - Ingresa metodo getDataDB(), para acceder a la DB y obtener los datos
+2017-02-19 12:03:28 INFO  ServerDAO:37 - Ingresa metodo getDataDB(), para acceder a la DB y obtener los datos
+2017-02-19 12:03:28 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-02-19 12:03:28 INFO  ServerService:28 - Ingresa metodo insertFbData(), para grabar los datos en la DB
+2017-02-19 12:03:28 INFO  ServerDAO:71 - Ingresa metodo insertFbData(), para grabar los datos en la DB
+2017-02-19 12:03:28 INFO  ServerDAO:192 - Ingresa metodo facebookRequest(), para hacer la consulta con Facebook
+2017-02-19 12:03:29 INFO  ServerDAO:122 - Ingresa metodo mapDataToInsert(), para mapear los datos obtenidos de la consulta con Facebook
+2017-02-19 12:03:29 INFO  ServerDAO:192 - Ingresa metodo facebookRequest(), para hacer la consulta con Facebook
+2017-02-19 12:03:29 INFO  ServerDAO:122 - Ingresa metodo mapDataToInsert(), para mapear los datos obtenidos de la consulta con Facebook
+2017-02-19 12:03:29 INFO  ServerService:18 - Ingresa metodo getDataDB(), para acceder a la DB y obtener los datos
+2017-02-19 12:03:29 INFO  ServerDAO:37 - Ingresa metodo getDataDB(), para acceder a la DB y obtener los datos
+2017-02-19 12:04:49 INFO  Version:45 - HHH000412: Hibernate Core {5.2.6.Final}
+2017-02-19 12:04:49 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-02-19 12:04:49 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-02-19 12:04:50 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-02-19 12:04:50 INFO  pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/karma]
+2017-02-19 12:04:50 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-02-19 12:04:50 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2017-02-19 12:04:50 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-02-19 12:04:50 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-02-19 12:04:50 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2cc93432] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-02-19 12:04:50 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2484b49e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-02-19 12:04:50 INFO  SchemaCreatorImpl:488 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@128e9254'
+2017-02-19 12:04:50 INFO  ServerService:18 - Ingresa metodo getDataDB(), para acceder a la DB y obtener los datos
+2017-02-19 12:04:50 INFO  ServerDAO:37 - Ingresa metodo getDataDB(), para acceder a la DB y obtener los datos
+2017-02-19 12:04:50 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-02-19 12:04:50 INFO  ServerService:28 - Ingresa metodo insertFbData(), para grabar los datos en la DB
+2017-02-19 12:04:50 INFO  ServerDAO:71 - Ingresa metodo insertFbData(), para grabar los datos en la DB
+2017-02-19 12:04:50 INFO  ServerDAO:192 - Ingresa metodo facebookRequest(), para hacer la consulta con Facebook
+2017-02-19 12:04:51 ERROR Server:57 - No existe ese codigo para hacer una request
+com.myapp.exceptions.FbDataRequestException: No existe ese codigo para hacer una request
+	at com.myapp.service.ServerService.insertFbData(ServerService.java:38)
+	at com.myapp.server.Server.lambda$0(Server.java:54)
+	at spark.RouteImpl$1.handle(RouteImpl.java:61)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:130)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:261)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Unknown Source)

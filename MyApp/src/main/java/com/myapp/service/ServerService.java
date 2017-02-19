@@ -1,20 +1,13 @@
 package com.myapp.service;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.List;
 
+import java.util.List;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-
 import com.hibernate.FbData;
 import com.myapp.dao.ServerDAO;
 import com.myapp.exceptions.FbDataRequestException;
-import com.myapp.server.Server;
+
 
 public class ServerService {
 	Logger logger = Logger.getLogger(ServerService.class);
