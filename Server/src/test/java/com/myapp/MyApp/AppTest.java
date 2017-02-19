@@ -1,4 +1,4 @@
-package com.myapp.server;
+package com.myapp.MyApp;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
