@@ -1,12 +1,14 @@
-package com.myapp.service;
+package com.server.service;
 
 
 import java.util.List;
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+
 import com.hibernate.FbData;
-import com.myapp.dao.ServerDAO;
-import com.myapp.exceptions.FbDataRequestException;
+import com.server.dao.ServerDAO;
+import com.server.exceptions.FbDataRequestException;
 
 
 public class ServerService {

@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.myapp</groupId>
-  <artifactId>MyApp</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <groupId>com.server</groupId>
+  <artifactId>server</artifactId>
+  <version>0.0.1</version>
   <packaging>jar</packaging>
   
-  <name>MyApp</name>
+  <name>server</name>
   <url>http://maven.apache.org</url>
 <build>
     <plugins>
@@ -27,11 +27,11 @@
           <target>1.8</target>
           <archive>
           <manifest>
-            <mainClass>com.myapp.server.HelloWorld</mainClass>
+            <mainClass>com.myapp.server.Server</mainClass>
           </manifest>
           </archive>
           <descriptorRefs>
-            <descriptorRef>jar-with-dependencies</descriptorRef>
+            <descriptorRef></descriptorRef>
           </descriptorRefs>
         </configuration>
       </plugin>

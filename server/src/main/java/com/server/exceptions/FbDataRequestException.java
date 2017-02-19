@@ -1,4 +1,4 @@
-package com.myapp.exceptions;
+package com.server.exceptions;
 
 import java.net.HttpURLConnection;
 

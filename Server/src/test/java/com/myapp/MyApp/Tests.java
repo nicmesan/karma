@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import com.myapp.dao.ServerDAO;
+import com.server.dao.ServerDAO;
 
 public class Tests {
 

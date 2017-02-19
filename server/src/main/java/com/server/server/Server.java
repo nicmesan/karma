@@ -1,20 +1,24 @@
-package com.myapp.server;
+package com.server.server;
 
 import static spark.Spark.*;
+
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.List;
+
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
+
 import com.google.gson.Gson;
 import com.hibernate.FbData;
 import com.hibernate.HibernateUtil;
-import com.myapp.exceptions.*;
-import com.myapp.service.ServerService;
+import com.server.exceptions.*;
+import com.server.service.ServerService;
 
 
 public class Server {

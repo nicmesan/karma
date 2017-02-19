@@ -1,4 +1,4 @@
-package com.myapp.dao;
+package com.server.dao;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -24,7 +24,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParseException;
 import com.hibernate.FbData;
 import com.hibernate.HibernateUtil;
-import com.myapp.exceptions.FbDataRequestException;
+import com.server.exceptions.FbDataRequestException;
 
 
 

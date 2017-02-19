@@ -1,4 +1,4 @@
-package com.myapp.exceptions;
+package com.server.exceptions;
 
 public class HTTPErrorJson {
 
